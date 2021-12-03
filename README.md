@@ -1,6 +1,7 @@
 # Rot-Detection-Using-CNN
 ### Dataset - https://www.kaggle.com/sriramr/fruits-fresh-and-rotten-for-classification
 ### How to use trained models - 
+Note - The trained models represent the various architectures used to pre process the images of the dataset using tranfer learning.
 ```python3
 from tensorflow import keras
 model = keras.models.load_model('path/to/location')
